@@ -39,7 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user',
     'api',
-    'login'
+    'login',
+
+    'rest_framework',
+    'rest_framework_jwt'
+
 ]
 
 MIDDLEWARE = [
@@ -186,6 +190,11 @@ LOGGING = {
             'propagate': True,  # 是否继续传递日志信息
             'level': 'INFO',  # 日志器接收的最低日志级别
         },
+        'django.db.backends': {  # 定义了db的日志输出
+            'handlers': ['console', ],
+            'propagate': True,  # 是否继续传递日志信息
+            'level': 'INFO',  # 日志器接收的最低日志级别
+        }
     }
 }
 
