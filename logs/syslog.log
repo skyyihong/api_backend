@@ -1,0 +1,5 @@
+INFO 2023-01-10 15:49:48,960 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 15:50:21,447 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 15:50:21,598 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 15:50:36,867 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/__init__.py changed, reloading.
+INFO 2023-01-10 15:50:37,021 autoreload 637 Watching for file changes with StatReloader
