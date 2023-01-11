@@ -329,3 +329,244 @@ INFO 2023-01-11 17:41:56,746 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 2
 INFO 2023-01-11 17:41:57,611 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 13
 INFO 2023-01-11 17:41:58,027 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 13
 INFO 2023-01-11 17:42:00,191 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 13
+INFO 2023-01-11 17:48:57,705 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 17:48:57,864 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 17:55:37,643 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 17:55:37,810 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 17:56:28,177 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 17:56:28,344 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 17:57:10,581 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 17:57:10,769 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 17:58:10,649 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 17:58:10,819 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 17:58:13,991 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 17:58:14,145 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 17:58:20,422 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 17:58:20,595 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:02:37,857 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 18:02:38,023 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:12:04,191 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:12:04,371 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:12:36,196 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:12:36,377 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:13:29,574 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:13:29,742 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:14:20,383 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:14:20,553 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:14:22,648 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:14:22,824 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:14:46,478 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:14:46,643 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:16:16,568 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/urls.py changed, reloading.
+INFO 2023-01-11 18:16:16,736 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:16:45,489 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:16:55,750 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:16:58,311 basehttp 161 "GET /api/book HTTP/1.1" 301 0
+ERROR 2023-01-11 18:16:58,370 log 224 Internal Server Error: /api/book/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+AttributeError: 'str' object has no attribute 'values'
+ERROR 2023-01-11 18:16:58,371 basehttp 161 "GET /api/book/ HTTP/1.1" 500 116721
+INFO 2023-01-11 18:17:20,536 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/models.py changed, reloading.
+INFO 2023-01-11 18:17:20,712 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:17:24,334 basehttp 161 "GET /api/book HTTP/1.1" 301 0
+ERROR 2023-01-11 18:17:24,394 log 224 Internal Server Error: /api/book/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+AttributeError: 'str' object has no attribute 'values'
+ERROR 2023-01-11 18:17:24,395 basehttp 161 "GET /api/book/ HTTP/1.1" 500 116529
+ERROR 2023-01-11 18:42:48,906 log 224 Internal Server Error: /api/book/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 687, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 507, in to_representation
+    for field in fields:
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/serializers.py", line 368, in _readable_fields
+    for field in self.fields.values():
+AttributeError: 'str' object has no attribute 'values'
+ERROR 2023-01-11 18:42:48,906 basehttp 161 "GET /api/book/ HTTP/1.1" 500 116377
+INFO 2023-01-11 18:43:58,696 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/serializer.py changed, reloading.
+INFO 2023-01-11 18:43:58,943 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:44:11,464 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:44:13,291 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:45:45,908 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:45:46,080 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:45:54,392 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 18:45:54,585 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:45:55,742 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 18:45:55,928 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:46:00,172 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 18:46:00,341 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:46:04,589 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 18:46:04,765 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:46:23,307 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:46:23,517 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:46:31,869 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:46:32,059 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 18:46:59,775 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:46:59,956 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-11 18:47:06,286 log 224 Internal Server Error: /api/book/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+AttributeError: 'BookModelSerializer' object has no attribute 'authenticate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 414, in initial
+    self.perform_authentication(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 324, in perform_authentication
+    request.user
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 226, in user
+    with wrap_attributeerrors():
+  File "/opt/homebrew/Cellar/python@3.10/3.10.6_1/Frameworks/Python.framework/Versions/3.10/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 78, in wrap_attributeerrors
+    raise exc.with_traceback(info[2])
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 74, in wrap_attributeerrors
+    yield
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 227, in user
+    self._authenticate()
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/request.py", line 380, in _authenticate
+    user_auth_tuple = authenticator.authenticate(self)
+rest_framework.request.WrappedAttributeError: 'BookModelSerializer' object has no attribute 'authenticate'
+ERROR 2023-01-11 18:47:06,287 basehttp 161 "GET /api/book/ HTTP/1.1" 500 132394
+INFO 2023-01-11 18:47:17,644 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 18:47:17,824 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-11 18:47:20,931 log 224 Unauthorized: /api/book/
+WARNING 2023-01-11 18:47:20,932 basehttp 161 "GET /api/book/ HTTP/1.1" 401 43
+INFO 2023-01-11 18:47:31,954 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 18:47:56,403 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:15,267 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:16,171 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:16,756 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:17,207 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:17,981 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:18,729 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:19,873 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:20,504 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:21,129 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:49:21,707 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 18:50:06,926 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 20:31:59,196 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-11 20:31:59,371 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:32:04,637 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-11 20:32:04,818 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:32:06,747 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-11 20:32:10,772 log 224 Unauthorized: /api/book/
+WARNING 2023-01-11 20:32:10,773 basehttp 161 "GET /api/book/ HTTP/1.1" 401 35
+INFO 2023-01-11 20:32:18,126 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 20:32:33,276 basehttp 161 "GET /api/book/ HTTP/1.1" 200 575
+INFO 2023-01-11 20:33:26,109 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/serializer.py changed, reloading.
+INFO 2023-01-11 20:33:26,339 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:33:36,753 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/serializer.py changed, reloading.
+INFO 2023-01-11 20:33:36,929 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:33:38,020 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/serializer.py changed, reloading.
+INFO 2023-01-11 20:33:38,186 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:33:47,459 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/book/serializer.py changed, reloading.
+INFO 2023-01-11 20:33:47,639 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:33:50,314 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 20:33:53,883 basehttp 161 "GET /api/book/ HTTP/1.1" 200 525
