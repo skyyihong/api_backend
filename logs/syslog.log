@@ -20,3 +20,160 @@ INFO 2023-01-10 15:56:47,780 basehttp 161 "POST /admin/login/?next=/admin/ HTTP/
 INFO 2023-01-10 15:56:47,798 basehttp 161 "GET /admin/ HTTP/1.1" 200 2877
 INFO 2023-01-10 16:00:59,124 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
 INFO 2023-01-10 16:00:59,314 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:38:18,703 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/urls.py changed, reloading.
+INFO 2023-01-10 22:38:18,895 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:38:30,220 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/urls.py changed, reloading.
+INFO 2023-01-10 22:38:30,387 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:41:15,453 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:44:08,053 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:44:49,978 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 22:44:50,159 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:45:11,763 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 22:45:11,933 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:45:12,854 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:45:36,505 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 22:45:36,681 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:45:38,143 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:46:08,021 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 22:46:08,212 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:46:11,441 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 22:46:11,615 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:46:14,833 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 22:46:15,018 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 22:46:16,358 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-10 22:46:20,688 log 224 Not Found: /
+WARNING 2023-01-10 22:46:20,688 basehttp 161 "GET / HTTP/1.1" 404 2170
+INFO 2023-01-10 22:46:25,197 basehttp 161 "GET /login HTTP/1.1" 301 0
+WARNING 2023-01-10 22:46:25,229 log 224 Method Not Allowed: /login/
+WARNING 2023-01-10 22:46:25,230 basehttp 161 "GET /login/ HTTP/1.1" 405 7653
+INFO 2023-01-10 22:46:25,257 basehttp 161 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+INFO 2023-01-10 22:46:25,257 basehttp 161 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2023-01-10 22:46:25,258 basehttp 161 "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2023-01-10 22:46:25,258 basehttp 161 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+INFO 2023-01-10 22:46:25,261 basehttp 161 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1719
+INFO 2023-01-10 22:46:25,262 basehttp 161 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 200 89476
+INFO 2023-01-10 22:46:25,262 basehttp 161 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2023-01-10 22:46:25,263 basehttp 161 "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2023-01-10 22:46:25,263 basehttp 161 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2023-01-10 22:46:25,263 basehttp 161 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2023-01-10 22:46:25,275 basehttp 161 "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2023-01-10 22:48:09,778 basehttp 161 "POST /login/ HTTP/1.1" 200 188
+INFO 2023-01-10 22:57:45,607 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:15:10,471 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:15:13,940 basehttp 161 "POST /login/ HTTP/1.1" 200 188
+INFO 2023-01-10 23:15:52,599 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:16:00,704 basehttp 161 "POST /login/ HTTP/1.1" 200 188
+WARNING 2023-01-10 23:16:12,935 log 224 Method Not Allowed: /login/
+WARNING 2023-01-10 23:16:12,935 basehttp 161 "GET /login/ HTTP/1.1" 405 7653
+INFO 2023-01-10 23:16:37,117 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:16:37,288 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:18:18,152 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:18:18,338 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:18:25,629 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:18:25,810 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:19:00,783 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:19:10,274 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:19:13,675 basehttp 161 "POST /login/ HTTP/1.1" 200 209
+INFO 2023-01-10 23:19:15,221 basehttp 161 "POST /login/ HTTP/1.1" 200 209
+INFO 2023-01-10 23:19:47,640 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:19:47,842 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:20:45,054 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:20:45,225 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:20:48,435 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:20:48,609 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:23:03,265 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:23:03,433 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:23:10,752 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:23:10,923 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:23:12,076 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:23:12,262 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:24:05,352 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:24:05,568 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:24:40,554 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-10 23:24:40,724 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:25:16,791 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 23:25:16,968 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:50:25,704 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-10 23:50:25,905 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:50:34,045 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 238
+INFO 2023-01-10 23:50:35,656 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 238
+INFO 2023-01-10 23:52:27,344 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/utils/jwt_custom_handler.py changed, reloading.
+INFO 2023-01-10 23:52:27,537 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:52:31,496 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:40,088 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/utils/jwt_custom_handler.py changed, reloading.
+INFO 2023-01-10 23:52:40,270 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:52:42,466 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/utils/jwt_custom_handler.py changed, reloading.
+INFO 2023-01-10 23:52:42,645 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:52:46,230 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:47,071 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:47,762 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:48,421 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:49,064 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:49,689 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:50,373 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:51,032 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:51,825 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:52,637 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:53,313 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:53,942 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:54,605 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:55,232 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:56,276 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:58,040 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:52:59,848 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:00,754 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:04,119 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:04,899 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:05,570 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:06,226 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:06,882 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:07,412 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:07,793 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:08,123 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:08,437 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:08,797 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:09,161 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:53:24,029 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/utils/jwt_custom_handler.py changed, reloading.
+INFO 2023-01-10 23:53:24,223 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-10 23:55:54,941 basehttp 161 "POST /login/refresh_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:57:07,407 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:58:14,093 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:58:22,848 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-10 23:59:02,842 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+WARNING 2023-01-11 00:05:24,957 log 224 Bad Request: /login/verify_token/
+WARNING 2023-01-11 00:05:24,959 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 400 50
+INFO 2023-01-11 00:05:36,255 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:37,584 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:38,669 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:40,018 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:40,641 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:41,183 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:41,759 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:42,369 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:43,017 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:43,744 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:44,342 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:44,929 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:45,535 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:46,157 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:46,703 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:47,337 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:48,080 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:48,839 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 00:05:50,863 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 11:30:30,272 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/utils/jwt_custom_handler.py changed, reloading.
+INFO 2023-01-11 11:30:30,509 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 11:30:43,896 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/utils/jwt_custom_handler.py changed, reloading.
+INFO 2023-01-11 11:30:44,074 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 11:31:08,041 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 11:32:01,970 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 11:33:03,926 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 11:34:13,437 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-11 11:40:14,792 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-11 11:40:14,973 autoreload 637 Watching for file changes with StatReloader
+WARNING 2023-01-11 11:40:18,574 log 224 Bad Request: /login/verify_token/
+WARNING 2023-01-11 11:40:18,575 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 400 14
+INFO 2023-01-11 11:40:28,076 basehttp 161 "POST /login/get_token/ HTTP/1.1" 200 256
+INFO 2023-01-11 11:40:37,518 basehttp 161 "POST /login/verify_token/ HTTP/1.1" 200 13
+INFO 2023-01-11 11:41:27,421 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/login/urls.py changed, reloading.
+INFO 2023-01-11 11:41:27,588 autoreload 637 Watching for file changes with StatReloader
