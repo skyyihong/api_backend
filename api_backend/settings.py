@@ -15,6 +15,8 @@ import os
 from pathlib import Path
 import datetime
 
+import django_filters
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -44,11 +46,14 @@ INSTALLED_APPS = [
     'book',
 
     'rest_framework',
-    'rest_framework_jwt'
+    'rest_framework_jwt',
+    'corsheaders',
+    'django_filters',
 
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -57,6 +62,12 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+# CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = (
+    'https://google.com',
+    'http://127.0.0.1:8000',
+    # '*'
+)
 
 ROOT_URLCONF = 'api_backend.urls'
 
@@ -134,14 +145,13 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+AUTH_USER_MODEL = 'user.User'
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": ["redis://127.0.0.1:6379/1", "redis://127.0.0.1:6379/2"],
-        # 如果有密码 "redis://password@127.0.0.1:6379/1"
+        "LOCATION": ["redis://127.0.0.1:6379/1", ],
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
-            "PASSWORD": "123456"
         }
     },
     "session": {
@@ -165,14 +175,13 @@ LOGGING = {
         },
     },
     'filters': {  # 对日志进行过滤
-
         'require_debug_true': {
             '()': 'django.utils.log.RequireDebugTrue',
         },
     },
     'handlers': {  # 日志处理方法
         'console': {  # 向终端中输出日志
-            'level': 'INFO',
+            'level': 'DEBUG',
             'filters': ['require_debug_true'],
             'class': 'logging.StreamHandler',
             'formatter': 'simple'
@@ -195,12 +204,10 @@ LOGGING = {
         'django.db.backends': {  # 定义了db的日志输出
             'handlers': ['console', ],
             'propagate': True,  # 是否继续传递日志信息
-            'level': 'INFO',  # 日志器接收的最低日志级别
+            'level': 'DEBUG',  # 日志器接收的最低日志级别
         }
     }
 }
-
-AUTH_USER_MODEL = 'user.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
@@ -211,13 +218,32 @@ REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
     ),
+    'DEFAULT_FILTER_BACKENDS': [
+        "django_filters.rest_framework.DjangoFilterBackend",  # 配置drf 过滤功能
+        "rest_framework.filters.OrderingFilter",  # 配置使用drf直接的排序功能
+    ],
+    'DEFAULT_THROTTLE_CLASSES': [
+        # 'rest_framework.throttling.AnonRateThrottle',  # 针对匿名用户的限制
+        # 'rest_framework.throttling.UserRateThrottle',  # 针对登录用户的限制
+        'rest_framework.throttling.ScopedRateThrottle',  # 针对自定义的限制
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '2/day',
+        'user': '20/min',
+        'test': '10/day'
+        # 阈值的单位可以为('s', 'sec', 'm', 'min', 'h', 'hour', 'd', 'day')
+    },
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    # "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 4
+
 }
+# from rest_framework.pagination.PageNumberPagination, LimitOffsetPagination
 
 JWT_AUTH = {
-    'JWT_EXPIRATION_DELTA': datetime.timedelta(minutes=10),  # token过期时间
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(minutes=200),  # token过期时间
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.jwt_custom_handler.custom_jwt_response_payload_handler',  # 自定义jwt返回的内容
     'JWT_ALLOW_REFRESH': True,  # True表示token没有过期可以申请,False表示在token过期前不是刷新token
     'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),
-
     'JWT_AUTH_HEADER_PREFIX': 'JWT',  # token在http头部的格式
 }
