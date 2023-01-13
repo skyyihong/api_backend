@@ -2105,3 +2105,126 @@ INFO 2023-01-13 15:28:15,529 autoreload 251 /Users/hongyan/PycharmProjects/api_b
 INFO 2023-01-13 15:28:15,709 autoreload 637 Watching for file changes with StatReloader
 INFO 2023-01-13 15:30:38,331 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
 INFO 2023-01-13 15:30:38,526 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:33:23,664 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-13 16:33:23,909 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:33:26,910 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:36:10,512 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-13 16:36:10,685 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:36:13,810 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-13 16:36:13,985 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:36:38,610 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-13 16:37:43,463 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:38:41,764 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-13 16:38:41,942 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:38:46,169 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-13 16:38:46,352 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:38:49,579 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 360
+INFO 2023-01-13 16:38:50,682 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 360
+INFO 2023-01-13 16:38:58,880 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/views.py changed, reloading.
+INFO 2023-01-13 16:38:59,061 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-13 16:39:03,052 log 224 Internal Server Error: /api/book5/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/PycharmProjects/api_backend/api/views.py", line 86, in list
+    1 / 0
+ZeroDivisionError: division by zero
+ERROR 2023-01-13 16:39:03,052 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 500 93611
+INFO 2023-01-13 16:52:00,402 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api_backend/settings.py changed, reloading.
+INFO 2023-01-13 16:52:00,607 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:52:04,924 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-13 16:52:06,919 log 224 Internal Server Error: /api/book5/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/PycharmProjects/api_backend/api/views.py", line 86, in list
+    1 / 0
+ZeroDivisionError: division by zero
+ERROR 2023-01-13 16:52:06,920 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 500 145
+INFO 2023-01-13 16:53:00,626 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/custom_exceptions.py changed, reloading.
+INFO 2023-01-13 16:53:00,824 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-13 16:53:04,170 log 224 Internal Server Error: /api/book5/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/PycharmProjects/api_backend/api/views.py", line 86, in list
+    1 / 0
+ZeroDivisionError: division by zero
+ERROR 2023-01-13 16:53:04,170 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 500 145
+INFO 2023-01-13 16:53:23,637 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/custom_exceptions.py changed, reloading.
+INFO 2023-01-13 16:53:23,820 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:53:26,033 autoreload 637 Watching for file changes with StatReloader
+ERROR 2023-01-13 16:53:28,632 log 224 Internal Server Error: /api/book5/
+Traceback (most recent call last):
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/Users/hongyan/.virtualenvs/api_backend/lib/python3.10/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/Users/hongyan/PycharmProjects/api_backend/api/views.py", line 86, in list
+    1 / 0
+ZeroDivisionError: division by zero
+ERROR 2023-01-13 16:53:28,634 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 500 145
+INFO 2023-01-13 16:53:41,615 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/custom_exceptions.py changed, reloading.
+INFO 2023-01-13 16:53:41,795 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:53:43,426 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 30
+INFO 2023-01-13 16:53:53,254 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/custom_exceptions.py changed, reloading.
+INFO 2023-01-13 16:53:53,456 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:57:54,115 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 29
+INFO 2023-01-13 16:57:56,197 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 29
+INFO 2023-01-13 16:58:11,629 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/custom_exceptions.py changed, reloading.
+INFO 2023-01-13 16:58:11,814 autoreload 637 Watching for file changes with StatReloader
+INFO 2023-01-13 16:58:43,617 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 29

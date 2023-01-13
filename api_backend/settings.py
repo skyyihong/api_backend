@@ -27,7 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@r2$@zn4612+swa##c!lvk9)b&n7g_1$p7_o0xi724_@3*8%-i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -233,13 +234,14 @@ REST_FRAMEWORK = {
         'test': '10/day'
         # 阈值的单位可以为('s', 'sec', 'm', 'min', 'h', 'hour', 'd', 'day')
     },
-    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
-    # "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
-    "PAGE_SIZE": 4
+    # "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.LimitOffsetPagination",
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 4,
+    'EXCEPTION_HANDLER': 'api.custom_exceptions.custom_exception_handler',  # 继承原有DRF异常处理,并自定义异常出来,使其能以json形式返回
 
 }
 # from rest_framework.pagination.PageNumberPagination, LimitOffsetPagination
-
+# from api.custom_exceptions.custom_exception_handler
 JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(minutes=200),  # token过期时间
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.jwt_custom_handler.custom_jwt_response_payload_handler',  # 自定义jwt返回的内容

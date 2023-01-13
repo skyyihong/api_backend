@@ -80,3 +80,8 @@ class BookModelViewSet5(ModelViewSet):
     # pagination_class = PageNumberPagination
     pagination_class = MyPageNumberPagination
     queryset = Book.objects.all()
+
+    def list(self, request, *args, **kwargs):
+        res = super().list(self, request, *args, **kwargs)
+        1 / 0
+        return res
