@@ -2228,3 +2228,4 @@ INFO 2023-01-13 16:57:56,197 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/
 INFO 2023-01-13 16:58:11,629 autoreload 251 /Users/hongyan/PycharmProjects/api_backend/api/custom_exceptions.py changed, reloading.
 INFO 2023-01-13 16:58:11,814 autoreload 637 Watching for file changes with StatReloader
 INFO 2023-01-13 16:58:43,617 basehttp 161 "GET /api/book5/?page=1&size=100 HTTP/1.1" 200 29
+INFO 2023-02-22 16:02:17,492 autoreload 637 Watching for file changes with StatReloader

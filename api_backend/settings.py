@@ -164,6 +164,19 @@ CACHES = {
     }
 }
 
+# CACHES = {
+#     'default': {
+#         'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+#         'LOCATION': 'def_cache_table',
+#     },
+#     'session': {
+#         'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+#         'LOCATION': 'session_cache_table',
+#     },
+# }
+# 注：执行创建表命令 python manage.py createcachetable,数据库中会自动生成名字为def_cache_table session_cache_table 的表作为缓存表
+
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,  # 是否禁用已经存在的日志器
@@ -246,6 +259,6 @@ JWT_AUTH = {
     'JWT_EXPIRATION_DELTA': datetime.timedelta(minutes=200),  # token过期时间
     'JWT_RESPONSE_PAYLOAD_HANDLER': 'utils.jwt_custom_handler.custom_jwt_response_payload_handler',  # 自定义jwt返回的内容
     'JWT_ALLOW_REFRESH': True,  # True表示token没有过期可以申请,False表示在token过期前不是刷新token
-    'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),
+    'JWT_REFRESH_EXPIRATION_DELTA': datetime.timedelta(days=7),  # 过期7天内的token才能申请刷新获取新token
     'JWT_AUTH_HEADER_PREFIX': 'JWT',  # token在http头部的格式
 }
